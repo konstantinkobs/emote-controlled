@@ -1,0 +1,7 @@
+files
+venv
+**/__pycache__
+**/.vscode
+**/.DS_Store
+embedding
+model
