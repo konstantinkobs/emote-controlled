@@ -4,5 +4,5 @@ nltk == 3.4.5
 numpy == 1.17.2
 pandas == 0.25.1
 sklearn == 0.0
-tensorflow == 1.14.0
+tensorflow == 1.15.2
 tensorpack == 0.9.8
