@@ -1,6 +1,6 @@
 # Emote-Controlled
 
-In this repository you find the code and data for the paper "Emote-Controlled: Obtaining Implicit Viewer Feedback through Emote based Sentiment Analysis on Comments of Popular Twitch.tv Channels" by Konstantin Kobs et al., published in "Transactions on Social Computing":
+In this repository you find the code and data for the paper ["Emote-Controlled: Obtaining Implicit Viewer Feedback through Emote based Sentiment Analysis on Comments of Popular Twitch.tv Channels"](https://dl.acm.org/doi/abs/10.1145/3365523) by Konstantin Kobs et al., published in "Transactions on Social Computing":
 
 > In recent years, streaming platforms for video games have seen increasingly large interest, as so-called “esports” have developed into a lucrative branch of business. Like for other sports, watching esports has become a new kind of entertainment medium, which is possible due to platforms that allow gamers to live stream their gameplay, the most popular platform being [Twitch.tv](http://twitch.tv). On these platforms, users can comment on streams in real-time and thereby express their opinion about the events in the stream. Due to the popularity of Twitch.tv, this can be a valuable source of feedback for streamers aiming to improve their reception in a gaming-oriented audience. In this work, we explore the possibility of deriving feedback for video streams on Twitch.tv by analyzing the sentiment of live text comments made by stream viewers in highly active channels. Automatic sentiment analysis on these comments is a challenging task, as one can compare the language used in Twitch.tv with that used by an audience in a stadium, shouting as loud as possible in sometimes non-organized ways. This language is very different from common English, mixing Internet slang and gaming-related language with abbreviations, intentional and unintentional grammatical and orthographic mistakes as well as emoji- like images called emotes. Classic lexicon based sentiment analysis techniques therefore fail when applied to Twitch comments.
 > In order to overcome the challenge posed by the non-standard language, we propose two unsupervised lexicon based approaches that make heavy use of the information encoded in emotes, as well as a weakly supervised neural network based classifier trained on the lexicon based outputs, that is supposed to help generalization to unknown words by use of domain-specific word embeddings. To enable better understand- ing of Twitch.tv comments, we analyze a large dataset of comments, uncovering specific properties of their language and provide a smaller set of comments labeled with sentiment information by crowd sourcing.
@@ -73,7 +73,24 @@ Here is a list of all provided downloads. The password for the download links is
 If you use our code or data, please cite us:
 
 ```
-TODO
+@article{10.1145/3365523,
+author = {Kobs, Konstantin and Zehe, Albin and Bernstetter, Armin and Chibane, Julian and Pfister, Jan and Tritscher, Julian and Hotho, Andreas},
+title = {Emote-Controlled: Obtaining Implicit Viewer Feedback Through Emote-Based Sentiment Analysis on Comments of Popular Twitch.Tv Channels},
+year = {2020},
+issue_date = {April 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {2},
+issn = {2469-7818},
+url = {https://doi.org/10.1145/3365523},
+doi = {10.1145/3365523},
+journal = {Trans. Soc. Comput.},
+month = apr,
+articleno = {Article 7},
+numpages = {34},
+keywords = {emotes, feedback, sentiment analysis, Twitch}
+}
 ```
 
 # License
